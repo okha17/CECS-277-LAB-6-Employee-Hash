@@ -116,7 +116,7 @@ public class Tester
         Employee emp = new Employee(ID, first, last);
         Set<Employee> keys = gm.keySet();
         
-        for(Employee empl: keys)
+        for(Employee empl: keys)  //advanced for loop
         {
         	if(empl.equals(emp))
         	{
@@ -211,7 +211,7 @@ public class Tester
 		}
 		else
 		{
-			for(Employee e: emp)
+			for(Employee e: emp) //advanced for loop
 			{
 				System.out.println(e.toString() + "Grade: " + gm.get(e) + "\n");
 			}
