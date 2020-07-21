@@ -131,7 +131,7 @@ public class Employee implements Comparable<Employee>, Serializable
 	/*
 	 * The comparable interface is overridden with the compareTo method
 	 * Compare the employee's last name first, then their first name, and
-	 * lastly their ID
+	 * lastly their ID to order Employees
 	 */
 	@Override
 	public int compareTo(Employee emp) {
